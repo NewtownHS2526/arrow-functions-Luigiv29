@@ -108,16 +108,14 @@ Write your solution using:
 - Regular arrow function
 */
 
-const exercise1Array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const exer = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
 
 // Your solution here (one-line arrow function):
-// const exercise1Result1 = 
+ const exercise = exer.filter(n => n > 5);
 
-// Your solution here (regular arrow function):
-// const exercise1Result2 = 
 
-// Uncomment to test:
-// console.log("Exercise 1 - One-line:", exercise1Result1);
+//  console.log("Exercise 1 - One-line:", exercise1Result1);
 // console.log("Exercise 1 - Regular:", exercise1Result2);
 // Expected: [1, 3, 5, 7, 9]
 
@@ -132,13 +130,15 @@ Write your solution using:
 - Regular arrow function
 */
 
-const exercise2Array = ["apple", "banana", "kiwi", "orange", "grape"];
+const exercise2 = ["apple", "banana", "kiwi", "orange", "grape"];
 
 // Your solution here (one-line arrow function):
-// const exercise2Result1 = 
+ const fruits = exercise2.filter(word => word.length > 4);
 
 // Your solution here (regular arrow function):
-// const exercise2Result2 = 
+ const fruits2 = exercise2.filter((word)=> {
+return word.length > 4;
+ })
 
 // Uncomment to test:
 // console.log("Exercise 2 - One-line:", exercise2Result1);
@@ -156,13 +156,15 @@ Write your solution using:
 - Regular arrow function
 */
 
-const exercise3Array = [15, 8, 22, 5, 30, 12, 18];
+const exer3 = [15, 8, 22, 5, 30, 12, 18]; 
 
 // Your solution here (one-line arrow function):
-// const exercise3Result1 = 
+ const exercise3 = exer3.filter(num => num > 11)
 
 // Your solution here (regular arrow function):
-// const exercise3Result2 = 
+ const exercise3R2 = exer3.filter((num)=> {
+  return num > 11;
+ })
 
 // Uncomment to test:
 // console.log("Exercise 3 - One-line:", exercise3Result1);
@@ -182,10 +184,10 @@ Write your solution using:
 - Regular arrow function
 */
 
-const exercise4Array = ["red", "blue", "green", "yellow", "purple"];
+const exer4 = ["red", "blue", "green", "yellow", "purple"];
 
 // Your solution here (one-line arrow function):
-// const exercise4Result1 = 
+const exercise4 = exer4.filter (word => word.startsWith("b"));
 
 // Your solution here (regular arrow function):
 // const exercise4Result2 = 
