@@ -24,7 +24,7 @@ Write your solution using:
 - Regular arrow function
 */
 
-const exercise1Array = [
+const exer21 = [
   { name: "Alice", age: 25 },
   { name: "Bob", age: 17 },
   { name: "Charlie", age: 30 },
@@ -32,7 +32,7 @@ const exercise1Array = [
 ];
 
 // Your solution here (one-line arrow function):
-// const exercise1Result1 = 
+const exercise6 = exer21.filter(age => age > 17);
 
 // Your solution here (regular arrow function):
 // const exercise1Result2 = 

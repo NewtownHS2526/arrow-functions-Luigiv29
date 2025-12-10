@@ -159,12 +159,12 @@ Write your solution using:
 const exer3 = [15, 8, 22, 5, 30, 12, 18]; 
 
 // Your solution here (one-line arrow function):
- const exercise3 = exer3.filter(num => num > 11)
+ const exercise3 = exer3.filter(num => num > 11);
 
 // Your solution here (regular arrow function):
  const exercise3R2 = exer3.filter((num)=> {
   return num > 11;
- })
+ });
 
 // Uncomment to test:
 // console.log("Exercise 3 - One-line:", exercise3Result1);
@@ -190,7 +190,9 @@ const exer4 = ["red", "blue", "green", "yellow", "purple"];
 const exercise4 = exer4.filter (word => word.startsWith("b"));
 
 // Your solution here (regular arrow function):
-// const exercise4Result2 = 
+const exercise4R2 = exer4.filter((num) => {
+  return num.startsWith("b");
+})
 
 // Uncomment to test:
 // console.log("Exercise 4 - One-line:", exercise4Result1);
@@ -208,13 +210,15 @@ Write your solution using:
 - Regular arrow function
 */
 
-const exercise5Array = [2, 4, 6, 8, 10, 11, 12, 13, 14];
+const exer5 = [2, 4, 6, 8, 10, 11, 12, 13, 14];
 
 // Your solution here (one-line arrow function):
-// const exercise5Result1 = 
+ const exercise5 = exer5.filter (num => num % 4 === 0);
 
 // Your solution here (regular arrow function):
-// const exercise5Result2 = 
+ const exercise5R2 =  exer5.filter ((num) => {
+  return num % 4 === 0;
+ })
 
 // Uncomment to test:
 // console.log("Exercise 5 - One-line:", exercise5Result1);
