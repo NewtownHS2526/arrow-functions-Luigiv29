@@ -165,7 +165,8 @@ const exer3A = [10, 20, 30, 40];
 const exercise3A = exer3A.map (num => num % 2)
 
 // Your solution here (regular arrow function):
-// const exercise3Result2 = 
+const exercise3AR2 = exer3A.map ((num) =>{
+return num % 2;})
 
 // Uncomment to test:
 // console.log("Exercise 3 - One-line:", exercise3Result1);
@@ -184,13 +185,15 @@ Write your solution using:
 - Regular arrow function
 */
 
-const exercise4Array = ["cat", "dog", "bird"];
+const exer4A = ["cat", "dog", "bird"];
 
 // Your solution here (one-line arrow function):
-// const exercise4Result1 = 
+const exerciseA4 = exer4A.map (word => word.toUpperCase())
 
 // Your solution here (regular arrow function):
-// const exercise4Result2 = 
+const exerciseA4R2 = exer4A.map ((word) => {
+  return word.toUpperCase()
+})
 
 // Uncomment to test:
 // console.log("Exercise 4 - One-line:", exercise4Result1);
@@ -208,10 +211,10 @@ Write your solution using:
 - Regular arrow function
 */
 
-const exercise5Array = [2, 4, 6, 8];
+const exer5A = [2, 4, 6, 8];
 
 // Your solution here (one-line arrow function):
-// const exercise5Result1 = 
+ const exerciseA5 =  exer5A.map (num => num * num)
 
 // Your solution here (regular arrow function):
 // const exercise5Result2 = 
