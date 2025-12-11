@@ -35,7 +35,9 @@ const exer21 = [
 const exercise6 = exer21.filter(age => age > 17);
 
 // Your solution here (regular arrow function):
-// const exercise1Result2 = 
+ const exercise1R2 = exer21.filter((age) => {
+  return age > 17;
+})
 
 // Uncomment to test:
 // console.log("Exercise 1 - One-line:", exercise1Result1);
