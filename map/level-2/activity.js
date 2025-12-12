@@ -23,14 +23,14 @@ Write your solution using:
 - Regular arrow function
 */
 
-const exercise1Array = [
+const exer1A = [
   { name: "Alice", age: 25 },
   { name: "Bob", age: 30 },
   { name: "Charlie", age: 35 }
 ];
 
 // Your solution here (one-line arrow function):
-// const exercise1Result1 = 
+const exerciseA1 = exer1A.map (name => name) 
 
 // Your solution here (regular arrow function):
 // const exercise1Result2 = 

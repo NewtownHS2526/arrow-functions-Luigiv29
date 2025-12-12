@@ -132,10 +132,10 @@ Write your solution using:
 - Regular arrow function
 */
 
-const exercise2Array = [10, 20, 30, 40];
+const exer2 = [10, 20, 30, 40];
 
 // Your solution here (one-line arrow function):
-// const exercise2Result1 = 
+const exercise2 = exer2.reduce()
 
 // Your solution here (regular arrow function):
 // const exercise2Result2 = 

@@ -116,10 +116,10 @@ Write your solution using:
 - Regular arrow function
 */
 
-const exercise1Array = [1, 2, 3, 4, 5];
+const exercise1 = [1, 2, 3, 4, 5];
 
 // Your solution here (one-line arrow function):
-// exercise1Array.forEach(
+ const exer1 = exercise1.forEach(num => num * 2)
 
 // Your solution here (regular arrow function):
 // exercise1Array.forEach((

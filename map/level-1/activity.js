@@ -217,7 +217,9 @@ const exer5A = [2, 4, 6, 8];
  const exerciseA5 =  exer5A.map (num => num * num)
 
 // Your solution here (regular arrow function):
-// const exercise5Result2 = 
+const exerciseA5R2 = exer5A.map ((num) => {
+ return num * num;
+})
 
 // Uncomment to test:
 // console.log("Exercise 5 - One-line:", exercise5Result1);
